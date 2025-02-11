@@ -26,16 +26,16 @@ Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
 
 3. Compila el proyecto:
    ```bash
-   javac -d bin src/**/*.java`
+   javac -d bin $(find src -name "*.java")
 
 5. Ejecuta la aplicación:
    ```bash
-   java -cp bin MainClass
+   java -cp bin Main
 
 7. Si usas VSCode:
    ```bash
    code .
    ```
 Asegurate de tener instaladas las extensiones necesarias en el directorio .vscode
-Asegúrate de reemplazar `MainClass` con el nombre real de tu clase principal si es diferente.
+
    
