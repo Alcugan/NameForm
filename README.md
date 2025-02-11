@@ -21,3 +21,17 @@ Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
    ```bash
    git clone https://github.com/Alcugan/NameForm.git
    cd NameForm
+
+2. Asegúrate de tener Java y un compilador Java instalador en tu máquina.
+
+3. Compila el proyecto:
+   `javac -d bin src/**/*.java`
+
+4. Ejecuta la aplicación:
+   `java -cp bin MainClass`
+
+5. Si usas VSCode:
+   `code .`
+   `Asegurate de tener instaladas las extensiones necesarias en el directorio .vscode`
+   `Asegúrate de reemplazar `MainClass` con el nombre real de tu clase principal si es diferente.`
+   
