@@ -33,9 +33,9 @@ Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
    java -cp bin MainClass
 
 7. Si usas VSCode:
-```bash
+   ```bash
    code .
-```
+   ```
 Asegurate de tener instaladas las extensiones necesarias en el directorio .vscode
 Asegúrate de reemplazar `MainClass` con el nombre real de tu clase principal si es diferente.
    
